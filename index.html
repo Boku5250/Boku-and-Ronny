@@ -2,9 +2,60 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Boku and Ronny</title>
+    <title>Boku and Ronny Survey</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
+  <h1 id="title">Survey for Microverse</h1>
+  <p id="description">Thank you for reviewing our project!</p>
+  <div class="row">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Email" aria-label="Email">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Age" aria-label="Age">
+    </div>
+  </div>
+  <div class="quiz-container" id="quiz">
+    <div class="quiz-header">
+      <h2 id="question">How would you rate Microverse Program?</h2>
+          <input type="radio" name="answer" id="a" class="answer">
+          <label for="a" id="a_text">Brilliant</label>      
+
+         <br> <input type="radio" name="answer" id="b" class="answer">
+          <label for="b" id="b_text">Good</label>
+
+          <br> <input type="radio" name="answer" id="c" class="answer">
+          <label for="c" id="c_text">Ok</label>    
+
+          <br> <input type="radio" name="answer" id="d" class="answer">
+          <label for="d" id="d_text">Bad</label>
+
+        
+    </div>
+
+  </div>
+ <br> <h3>What was your favourite activity during Microverse?</h3>
+
+ <select name="activity" id="activity">
+  <option value="Teamwork">Teamwork</option>
+  <option value="JavaScript">Learning JavaScript</option>
+  <option value="html">Learning HTML</option>
+  <option value="css">Learning CSS</option>
+</select>
+
+<h4>Any comments or suggestions?</h4>
+
+<form> <input type="text"> </form>
+
+<br><input type="submit" value="Submit">
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
