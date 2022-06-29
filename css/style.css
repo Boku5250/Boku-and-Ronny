@@ -1,9 +1,78 @@
-.box{
+body, html {   
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display:table;
+    font-family: Tahoma;
+}
+body {
+    display:table-cell;
+    vertical-align:middle;
+    background-color: lightblue;
 
-    height: 50px;
-    
-    width: 50px;
-    
-    background-color: blue;
-    
-    }
+}
+
+form {
+    display:table;/* shrinks to fit content */
+    margin:auto;
+    text-align: center;
+}
+
+
+#title{
+    text-align: center;
+}
+
+#description{
+    text-align: center;
+}
+
+.radio-label {
+    display: inline-block;
+     vertical-align: top;
+     margin-right: 3%;
+ }
+ .radio-input {
+    display: inline-block;
+     vertical-align: top;
+ }
+
+ input {
+    border: 2px solid rgb(0, 119, 255);
+    border-radius: 6px;
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+
+}
+
+select{
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    width: 50%;
+}
+
+#submit {
+    background-color: #0449aa;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 50%;
+  }
+
+textarea {
+    width: 50%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+  }
